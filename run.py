@@ -24,7 +24,7 @@ for idx, q in enumerate(all_modules_shuffled):
     correct_list = [a.strip().lower() for a in answers_raw.split('&')]
     correct_display = answers_raw.lower()
 
-    print(f'第{idx}题，{question}')
+    print(f'第{idx+1}题，{question}')
     #开始
     while True:
         user = input('回答：').strip()
