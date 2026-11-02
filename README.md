@@ -44,7 +44,7 @@ python run.py
 
 | 字段 | 说明 |
 | --- | --- |
-| `type` | 题目类型，目前为「中译英」 |
+| `type` | 题目类型 |
 | `question` | 题干，即中文释义 |
 | `answers` | 标准答案；多个可接受答案用 `&` 分隔，如 `arrive at&arrive in` |
 | `knowledge` | 知识点提示，可为空字符串 |
